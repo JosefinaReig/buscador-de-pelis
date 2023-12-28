@@ -1,0 +1,91 @@
+
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,100;9..40,300&display=swap');
+
+body{
+  background: black; 
+}
+nav{
+  background: rgb(245, 26, 26);
+  color: whitesmoke;
+  width: 100%;
+  display: inline-block;
+  padding-bottom: 15px;
+
+}
+
+a{
+  text-decoration: none;
+  color: whitesmoke;
+}
+
+#navegador{
+  margin-top:10px;
+  padding-top:15px;
+}
+.container {
+    max-width: 500px;
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  #buscador{
+    margin-top:80px;
+  }
+  h1 {
+    color: whitesmoke;
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 300;
+  }
+  
+  input[type="text"] {
+    width: 300px;
+    padding: 10px;
+    font-size: 16px;
+  }
+  
+  button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #ca0707;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+
+  button:hover{
+    background: rgb(245, 26, 26);
+  }
+ 
+  #nosotros{
+    margin-top:100px;
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 100;
+  }
+  
+  #results {
+    margin-top: 20px;
+    text-align: left;
+  }
+  
+  .movie {
+    margin-bottom: 10px;
+    padding: 10px;
+    background-color: #f5f5f5;
+    border-radius: 5px;
+  }
+  
+  .movie img {
+    width: 100px;
+    float: left;
+    margin-right: 10px;
+  }
+  
+  .movie h2 {
+    font-size: 18px;
+    margin-top: 0;
+  }
+  
+  .movie p {
+    margin: 5px 0;
+  }
+  
